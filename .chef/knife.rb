@@ -4,7 +4,7 @@ current_dir = File.dirname(__FILE__)
 log_level                :info
 log_location             STDOUT
 node_name                "chaitu-papa"
-client_key               "#{current_dir}/chaitu-papa.pem"
+client_key               "./user.pem"
 validation_client_name   "chaitu-papa-validator"
 validation_key           "#{current_dir}/chaitu-papa-validator.pem"
 chef_server_url          "https://api.chef.io/organizations/chaitu-papa"
