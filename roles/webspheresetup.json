@@ -1,5 +1,5 @@
 {
-    "name": "webserver",
+    "name": "webspheresetup",
     "description": "This is an webserver role defined as JSON",
     "chef_type": "role",
     "json_class": "Chef::Role",
