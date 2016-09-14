@@ -8,8 +8,9 @@
     "override_attributes": {
     },
     "run_list" : [
-        "recipe[ntp]",
-		"recipe[practise]",
-		"recipe[practise::read]"
+        "recipe[InstallationManager]",
+		"recipe[WebSphereAS85]",
+		"recipe[WebSphereAS85::createDmgr]",
+		"recipe[WebSphereAS85::createAppServer1]"
     ]
 }
